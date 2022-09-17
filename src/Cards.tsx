@@ -3,6 +3,10 @@
 */
 export default {
 	topleft: {
+		image: {
+			src: null,
+			alt: null
+		},
 		title: "PMMPInstaller",
 		subtitle: "The easy way to install PocketMine-MP",
 		text: "text idk",
@@ -12,6 +16,10 @@ export default {
 		}
 	},
 	topright: {
+		image: {
+			src: null,
+			alt: null
+		},
 		title: "PMMPInstaller",
 		subtitle: "The easy way to install PocketMine-MP",
 		text: "text idk",
@@ -21,6 +29,10 @@ export default {
 		}
 	},
 	bottomleft: {
+		image: {
+			src: null,
+			alt: null
+		},
 		title: "PMMPInstaller",
 		subtitle: "The easy way to install PocketMine-MP",
 		text: "text idk",
@@ -30,6 +42,10 @@ export default {
 		}
 	},
 	bottomright: {
+		image: {
+			src: null,
+			alt: null
+		},
 		title: "PMMPInstaller",
 		subtitle: "The easy way to install PocketMine-MP",
 		text: "text idk",
