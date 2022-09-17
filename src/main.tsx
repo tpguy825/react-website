@@ -10,7 +10,6 @@ import ReactDOM from 'react-dom/client'
 import './scss/styles.scss'
 
 // Components
-import Head from './Head'
 import Hero from './Hero'
 import Creations from './Creations'
 import Footer from './Footer'
@@ -25,5 +24,3 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
                 <Footer/>
   	</React.StrictMode>
 )
-
-ReactDOM.createRoot(document.head).render(<Head/>)
