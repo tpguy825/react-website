@@ -1,9 +1,13 @@
 // Bootstrap stuff
-import './scss/styles.scss'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import * as bootstrap from 'bootstrap'
+
 // React stuff
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+
+// Other files
+import './scss/styles.scss'
 
 // Components
 import Hero from './Hero'
@@ -17,6 +21,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
             <div className="dropdown-divider"></div>
 			<Creations/>
 		</div>
-                <Footer/>
+        <Footer/>
   	</React.StrictMode>
 )
