@@ -1,2 +1,39 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+.dark-mode{
+    background-color:#343a40;
+    color:#ced4da
+}
+
+.footer-icon { 
+	animation: footer-icon;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;
+	color: #6c757d;
+}
+
+.footer-icon:hover {
+	color: #6c757d;
+	animation: footer-icon-hover;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;
+}
+  
+@keyframes footer-icon-hover {
+	from {
+		color: #6c757d;
+	}
+	to {
+		color: #0d6efd;
+	}
+}
+
+@keyframes footer-icon {
+	from {
+		color: #0d6efd;
+	}
+	to {
+		color: #6c757d;
+	}
+}
