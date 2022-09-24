@@ -9,7 +9,7 @@ function Footer(): JSX.Element {
         <div className="container"> 
             <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"> 
                 <span className="mb-4 mb-md-0"> 
-                    Made with {Icons.Heart} by tpguy825 -  <Link to={{ pathname: "https://twitter.com/tobypayneyt" }}>{Icons.Twitter}</Link> <Link to={{ pathname: "https://youtube.com/verydankmemes"}}>{Icons.Youtube}</Link> <Link to={{ pathname: "https://github.com/tpguy825"}}>{Icons.Github}</Link> - <Link to={{ pathname: "https://github.com/tpguy825/website" }} className="footer-icon">{Icons.Code} Source Code</Link>
+                    Made with {Icons.Heart} by tpguy825 -  <a target="_blank" href="https://twitter.com/tobypayneyt">{Icons.Twitter}</a> <a target="_blank" href="https://youtube.com/verydankmemes">{Icons.Youtube}</a> <a target="_blank" href="https://github.com/tpguy825">{Icons.Github}</a> - <a target="_blank" href="https://github.com/tpguy825/website" className="footer-icon">{Icons.Code} Source Code</a>
                 </span> 
             </footer> 
         </div>
