@@ -1,6 +1,9 @@
 // Bootstrap stuff
 import * as bootstrap from 'bootstrap'
 
+// PartyTown (move blocking js onto another thread)
+import { Partytown } from '@builder.io/partytown/react';
+
 // React stuff
 import React from 'react'
 import ReactDOM from 'react-dom/client'
@@ -39,6 +42,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   	<React.StrictMode>
+		<Partytown debug={true} forward={['dataLayer.push']} />
 		<RouterProvider router={router} />
   	</React.StrictMode>
 )
