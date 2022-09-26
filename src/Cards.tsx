@@ -3,55 +3,43 @@
 */
 export default {
 	topleft: {
-		image: {
-			src: null,
-			alt: null
-		},
+		image: undefined,
 		title: "PMMPInstaller",
 		subtitle: "The easy way to install PocketMine-MP",
-		text: "text idk",
+		text: "Placeholder text",
 		links: {
 			website: "https://pmmpinstaller.cf",
 			source: "https://github.com/tpguy825/PMMPInstaller"
 		}
 	},
 	topright: {
-		image: {
-			src: null,
-			alt: null
-		},
-		title: "PMMPInstaller",
-		subtitle: "The easy way to install PocketMine-MP",
-		text: "text idk",
+		image: undefined,
+		title: "Placeholder text",
+		subtitle: "More placeholder text",
+		text: "Even more placeholder text",
 		links: {
-			website: "https://pmmpinstaller.cf",
-			source: "https://github.com/tpguy825/PMMPInstaller"
+			website: "/",
+			source: "/"
 		}
 	},
 	bottomleft: {
-		image: {
-			src: null,
-			alt: null
-		},
-		title: "PMMPInstaller",
-		subtitle: "The easy way to install PocketMine-MP",
-		text: "text idk",
+		image: undefined,
+		title: "Placeholder text",
+		subtitle: "More placeholder text",
+		text: "E",
 		links: {
-			website: "https://pmmpinstaller.cf",
-			source: "https://github.com/tpguy825/PMMPInstaller"
+			website: "/",
+			source: "/"
 		}
 	},
 	bottomright: {
-		image: {
-			src: null,
-			alt: null
-		},
-		title: "PMMPInstaller",
-		subtitle: "The easy way to install PocketMine-MP",
-		text: "text idk",
+		image: undefined,
+		title: "Placeholder text",
+		subtitle: "More placeholder text",
+		text: "E",
 		links: {
-			website: "https://pmmpinstaller.cf",
-			source: "https://github.com/tpguy825/PMMPInstaller"
+			website: "/",
+			source: "/"
 		}
 	}
 }
