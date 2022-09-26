@@ -44,7 +44,7 @@ footer {
 	border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-gray-500);
 }
 
-.wave-bg {
+#root {
 	background-image: url(../assets/images/wave-haikei.svg);
 	background-size: cover;
 	width: 100%;
@@ -55,7 +55,7 @@ footer {
 }
 
 .cards {
-	background-color: var(--bs-gray-600);
+	background-color: $cyan-800;
 }
 
 a:link {

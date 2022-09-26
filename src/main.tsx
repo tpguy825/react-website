@@ -17,6 +17,7 @@ import {
 import './scss/styles.scss'
 
 // Components
+import Head from './Head';
 import Hero from './Hero'
 import Creations from './Creations'
 import Footer from './Footer'
@@ -42,7 +43,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   	<React.StrictMode>
-		<Partytown debug={true} forward={['dataLayer.push']} />
 		<RouterProvider router={router} />
   	</React.StrictMode>
-)
+);
+
+ReactDOM.createRoot(document.getElementById("head") as HTMLElement).render(<Head partytown={Partytown}/>)

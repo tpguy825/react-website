@@ -4,9 +4,10 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite --host",
+		"dev": "npm run partytown && vite --host",
 		"build": "tsc && vite build",
-		"preview": "vite preview --host"
+		"preview": "vite preview --host",
+		"partytown": "partytown copylib public/~partytown"
 	},
 	"dependencies": {
 		"@popperjs/core": "2.11.6",
