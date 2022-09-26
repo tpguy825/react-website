@@ -8,7 +8,7 @@ export default function Head(props: any) {
                 t=l.createElement(r);t.async=1;t.type="text/partytown";t.src="https://www.clarity.ms/tag/"+i;
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
             })(window, document, "clarity", "script", "dt23pa291z");
-        `}}></script>
+        ` }}></script>
 		{/* Google tag (gtag.js) */}
 		<script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-8PRJJ0GGPS"></script>
 		<script type="text/partytown" dangerouslySetInnerHTML={{ __html: `
