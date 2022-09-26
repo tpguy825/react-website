@@ -1,7 +1,21 @@
 // This makes it eaiser to modify them
 import cards from "./Cards"
 
-function card(cardinfo: { image: { src: string, alt: string }|undefined, title: string, subtitle: string, text: string, links: { website: string, source: string }}): JSX.Element {
+type CardElement = {
+	image: {
+		src: string;
+		alt: string;
+	} | undefined;
+	title: string;
+	subtitle: string;
+	text: string;
+	links: {
+		website: string;
+		source: string;
+	};
+}
+
+function card(cardinfo: CardElement): JSX.Element {
 	if (cardinfo.image !== undefined && cardinfo.image.src !== null && cardinfo.image.alt !== null) {
 		return (
 			<div className="card cards">
