@@ -21,10 +21,11 @@ import Head from './Head';
 import Hero from './Hero'
 import Creations from './Creations'
 import Footer from './Footer'
+import Error from './ErrorPage';
 
 function main() {
 	return(
-		<div className="px-4 py-5 text-center">
+		<div className="main px-4 text-center">
 				<Hero/>
 				<div className="dropdown-divider"></div>
 				<Creations/>
@@ -37,6 +38,7 @@ const router = createBrowserRouter([
 	{
 		path: "/",
 		element: main(),
+		errorElement: <Error />,
 	},
 ]);
   

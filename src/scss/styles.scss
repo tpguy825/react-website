@@ -7,6 +7,26 @@ body {
 	overflow-x: hidden;
 }
 
+footer {
+	margin-top: 1.5rem;
+}
+
+.errorpage {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.main {
+	padding-top: 1.5rem;
+	background-image: url(../assets/images/wave-haikei.svg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	// make the background image fill the whole screen
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 // Footer icon anmations
 .footer-icon { 
 	animation: footer-icon;
@@ -42,16 +62,6 @@ body {
 
 footer {
 	border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-gray-500);
-}
-
-#root {
-	background-image: url(../assets/images/wave-haikei.svg);
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-	// make the background image fill the whole screen
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .cards {
