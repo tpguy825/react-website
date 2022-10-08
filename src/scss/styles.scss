@@ -1,10 +1,9 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
 
-html {
-    	background-color:#343a40;
-	color: var(--bs-gray-500);
-	overflow-x: hidden;
+
+body {
+	background-color: #343a40;
 }
 
 footer {
@@ -20,9 +19,6 @@ footer {
 	padding-top: 1.5rem;
 	width: 100%;
 	height: 100%;
-	// make the background image fill the whole screen
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 body {
@@ -33,6 +29,9 @@ body {
 	// make the background image fill the whole screen
 	background-position: center;
 	background-repeat: no-repeat;
+    	background-color: #0066FF
+	color: var(--bs-gray-500);
+	overflow-x: hidden;
 }
 
 // Footer icon anmations
