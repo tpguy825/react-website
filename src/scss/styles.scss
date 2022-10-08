@@ -4,6 +4,8 @@
 
 body {
 	background-color: #343a40;
+	color: var(--bs-gray-500);
+	overflow-x: hidden;
 }
 
 footer {
@@ -29,9 +31,7 @@ body {
 	// make the background image fill the whole screen
 	background-position: center;
 	background-repeat: no-repeat;
-    	background-color: #0066FF
-	color: var(--bs-gray-500);
-	overflow-x: hidden;
+    	background-color: #0066FF;
 }
 
 // Footer icon anmations
