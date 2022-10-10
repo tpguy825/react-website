@@ -5,7 +5,7 @@ import * as bootstrap from 'bootstrap'
 import { Partytown } from '@builder.io/partytown/react';
 
 // React stuff
-import React, { lazy, Suspense } from 'react'
+import React, { lazy, Suspense, useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -39,12 +39,11 @@ const router = createBrowserRouter([
 		errorElement: <Error />,
 	}
 ]);
-  
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  	<React.StrictMode>
+	<React.StrictMode>
 		<RouterProvider router={router} />
-  	</React.StrictMode>
+	</React.StrictMode>
 );
 
 ReactDOM.createRoot(document.getElementById("head") as HTMLElement).render(<Head partytown={Partytown}/>)
