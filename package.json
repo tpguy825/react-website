@@ -7,7 +7,6 @@
 		"dev": "npm run partytown && vite --host",
 		"build": "tsc && vite build",
 		"preview": "vite preview --host",
-		"postbuild": "purgecss --css build/static/css/*.css --content build/index.html build/static/js/*.js --output build/static/css"
 		"partytown": "partytown copylib public/~partytown"
 	},
 	"dependencies": {
@@ -18,9 +17,7 @@
 		"react-dom": "18.2.0",
 		"react-router-dom": "^6.4.0",
 		"@builder.io/partytown": "^0.7.0",
-		"@fullhuman/postcss-purgecss": "5.0.0",
-		"glob-all": "3.3.0",
-		"purgecss-webpack-plugin": "5.0.0"
+		"vite-plugin-purgecss": "0.2.12"
 	},
 	"devDependencies": {
 		"@types/bootstrap": "^5.2.4",
