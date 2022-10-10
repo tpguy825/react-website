@@ -5,41 +5,39 @@ import * as bootstrap from 'bootstrap'
 import { Partytown } from '@builder.io/partytown/react';
 
 // React stuff
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import ReactDOM from 'react-dom/client'
-import {
-	createBrowserRouter,
-	RouterProvider,
-	Route,
-  } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 // Other files
 import './scss/styles.scss'
 
 // Components
-import Head from './Head';
-import Hero from './Hero'
-import Creations from './Creations'
-import Footer from './Footer'
-import Error from './ErrorPage';
+const Head = lazy(() => import('./Head'))
+const Hero = lazy(() => import('./Hero'))
+const Creations = lazy(() => import('./Creations'))
+const Footer = lazy(() => import('./Footer'))
+const Error = lazy(() => import('./ErrorPage'))
 
-function main() {
+function Main() {
 	return(
-		<div className="main px-4 text-center">
-				<Hero/>
-				<div className="dropdown-divider"></div>
-				<Creations/>
-			<Footer/>
-		</div>
+		<Suspense fallback={<p>Loading...</p>}>
+			<div className="main px-4 text-center">
+					<Hero/>
+					<div className="dropdown-divider"></div>
+					<Creations/>
+				<Footer/>
+			</div>
+		</Suspense>
 	)
 }
 
 const router = createBrowserRouter([
 	{
 		path: "/",
-		element: main(),
+		element: <Main />,
 		errorElement: <Error />,
-	},
+	}
 ]);
   
 
