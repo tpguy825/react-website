@@ -7,7 +7,7 @@ import { Partytown } from '@builder.io/partytown/react';
 // React stuff
 import React, { lazy, Suspense } from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Other files
 import './scss/styles.scss'
