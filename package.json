@@ -16,7 +16,7 @@
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
 		"react-router-dom": "^6.4.2",
-		"@builder.io/partytown": "^0.7.1",
+		"@builder.io/partytown": "^0.7.2",
 		"vite-plugin-purgecss": "0.2.12"
 	},
 	"devDependencies": {
