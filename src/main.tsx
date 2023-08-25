@@ -1,13 +1,13 @@
 // Bootstrap stuff
-import * as bootstrap from 'bootstrap'
+import 'bootstrap'
 
 // PartyTown (move blocking js onto another thread)
 import { Partytown } from '@builder.io/partytown/react';
 
 // React stuff
-import React, { lazy, Suspense } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Other files
 import './scss/styles.scss'
@@ -17,7 +17,7 @@ import Head from './Head'
 import Hero from './Hero'
 import Creations from './Creations'
 import Footer from './Footer'
-import Error from './ErrorPage'
+// import Error from './ErrorPage'
 
 function Main() {
 	return(
@@ -30,18 +30,19 @@ function Main() {
 	)
 }
 
-const router = createBrowserRouter([
-	{
-		path: "/",
-		element: <Main />,
-		errorElement: <Error />,
-	}
-]);
+// const router = createBrowserRouter([
+// 	{
+// 		path: "/",
+// 		element: <Main />,
+// 		errorElement: <Error />,
+// 	}
+// ]);
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 	<React.StrictMode>
-		<RouterProvider router={router} />
+		{/* <RouterProvider router={router} /> */}
+		<Main/>
 	</React.StrictMode>
 );
 
