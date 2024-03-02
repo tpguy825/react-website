@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@builder.io/partytown':
-    specifier: ^0.8.1
-    version: 0.8.2
+    specifier: ^0.10.0
+    version: 0.10.0
   '@popperjs/core':
     specifier: 2.11.8
     version: 2.11.8
@@ -282,8 +282,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@builder.io/partytown@0.8.2:
-    resolution: {integrity: sha512-WKGE+SO0qUGirW8J+xOWkHeCkfFEoPPvHnFkcdMl+MY3kDbAcTwjZCzjg27JCvoD0h8fH47FR7DSIss0/S5lyg==}
+  /@builder.io/partytown@0.10.0:
+    resolution: {integrity: sha512-OS/o9lAmK5rZZLkjFmghPNmp3P40uTF5yu2rFY3TVlnSie7CQhwrQ+5lycUkHqrDVyI4NOnOiA655Q1eGPE2pw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dev: false
