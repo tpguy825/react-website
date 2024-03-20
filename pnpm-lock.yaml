@@ -28,7 +28,7 @@ dependencies:
     version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
   vite-plugin-purgecss:
     specifier: 0.2.12
-    version: 0.2.12(sass@1.72.0)(typescript@5.4.2)
+    version: 0.2.12(sass@1.72.0)(typescript@5.4.3)
 
 devDependencies:
   '@types/bootstrap':
@@ -51,7 +51,7 @@ devDependencies:
     version: 1.72.0
   typescript:
     specifier: ^5.2.2
-    version: 5.4.2
+    version: 5.4.3
   vite:
     specifier: ^4.4.9
     version: 4.5.2(@types/node@20.11.28)(sass@1.72.0)
@@ -2040,7 +2040,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: false
 
-  /tsup@6.7.0(typescript@5.4.2):
+  /tsup@6.7.0(typescript@5.4.3):
     resolution: {integrity: sha512-L3o8hGkaHnu5TdJns+mCqFsDBo83bJ44rlK7e6VdanIvpea4ArPcU3swWGsLVbXak1PqQx/V+SSmFPujBK+zEQ==}
     engines: {node: '>=14.18'}
     hasBin: true
@@ -2070,14 +2070,14 @@ packages:
       source-map: 0.8.0-beta.0
       sucrase: 3.35.0
       tree-kill: 1.2.2
-      typescript: 5.4.2
+      typescript: 5.4.3
     transitivePeerDependencies:
       - supports-color
       - ts-node
     dev: false
 
-  /typescript@5.4.2:
-    resolution: {integrity: sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==}
+  /typescript@5.4.3:
+    resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2100,11 +2100,11 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: false
 
-  /vite-plugin-purgecss@0.2.12(sass@1.72.0)(typescript@5.4.2):
+  /vite-plugin-purgecss@0.2.12(sass@1.72.0)(typescript@5.4.3):
     resolution: {integrity: sha512-QV3ULnIB0+7djn05Xkg3bnN4bbxGAGGG0KnaIHgcfl1/+WdyUGhQOggcFhKqB6oalTJnU7m41118l27emm/Yzw==}
     dependencies:
       purgecss: 4.1.3
-      tsup: 6.7.0(typescript@5.4.2)
+      tsup: 6.7.0(typescript@5.4.3)
       vite: 2.9.17(sass@1.72.0)
     transitivePeerDependencies:
       - '@swc/core'
