@@ -36,7 +36,7 @@ devDependencies:
     version: 5.2.10
   '@types/node':
     specifier: ^20.6.2
-    version: 20.12.11
+    version: 20.12.12
   '@types/react':
     specifier: ^18.2.21
     version: 18.3.2
@@ -54,7 +54,7 @@ devDependencies:
     version: 5.4.5
   vite:
     specifier: ^4.4.9
-    version: 4.5.3(@types/node@20.12.11)(sass@1.77.1)
+    version: 4.5.3(@types/node@20.12.12)(sass@1.77.1)
 
 packages:
 
@@ -802,8 +802,8 @@ packages:
       '@popperjs/core': 2.11.8
     dev: true
 
-  /@types/node@20.12.11:
-    resolution: {integrity: sha512-vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==}
+  /@types/node@20.12.12:
+    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -836,7 +836,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.24.1(@babel/core@7.24.5)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 4.5.3(@types/node@20.12.11)(sass@1.77.1)
+      vite: 4.5.3(@types/node@20.12.12)(sass@1.77.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2138,7 +2138,7 @@ packages:
       fsevents: 2.3.3
     dev: false
 
-  /vite@4.5.3(@types/node@20.12.11)(sass@1.77.1):
+  /vite@4.5.3(@types/node@20.12.12)(sass@1.77.1):
     resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2166,7 +2166,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.12.11
+      '@types/node': 20.12.12
       esbuild: 0.18.20
       postcss: 8.4.38
       rollup: 3.29.4
