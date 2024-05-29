@@ -28,7 +28,7 @@ dependencies:
     version: 6.23.1(react-dom@18.2.0)(react@18.2.0)
   vite-plugin-purgecss:
     specifier: 0.2.12
-    version: 0.2.12(sass@1.77.2)(typescript@5.4.5)
+    version: 0.2.12(sass@1.77.3)(typescript@5.4.5)
 
 devDependencies:
   '@types/bootstrap':
@@ -48,13 +48,13 @@ devDependencies:
     version: 4.3.0(vite@4.5.3)
   sass:
     specifier: ^1.67.0
-    version: 1.77.2
+    version: 1.77.3
   typescript:
     specifier: ^5.2.2
     version: 5.4.5
   vite:
     specifier: ^4.4.9
-    version: 4.5.3(@types/node@20.12.12)(sass@1.77.2)
+    version: 4.5.3(@types/node@20.12.12)(sass@1.77.3)
 
 packages:
 
@@ -833,7 +833,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.24.6(@babel/core@7.24.6)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 4.5.3(@types/node@20.12.12)(sass@1.77.2)
+      vite: 4.5.3(@types/node@20.12.12)(sass@1.77.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1876,8 +1876,8 @@ packages:
       queue-microtask: 1.2.3
     dev: false
 
-  /sass@1.77.2:
-    resolution: {integrity: sha512-eb4GZt1C3avsX3heBNlrc7I09nyT00IUuo4eFhAbeXWU2fvA7oXI53SxODVAA+zgZCk9aunAZgO+losjR3fAwA==}
+  /sass@1.77.3:
+    resolution: {integrity: sha512-WJHo+jmFp0dwRuymPmIovuxHaBntcCyja5hCB0yYY9wWrViEp4kF5Cdai98P72v6FzroPuABqu+ddLMbQWmwzA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -2095,12 +2095,12 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: false
 
-  /vite-plugin-purgecss@0.2.12(sass@1.77.2)(typescript@5.4.5):
+  /vite-plugin-purgecss@0.2.12(sass@1.77.3)(typescript@5.4.5):
     resolution: {integrity: sha512-QV3ULnIB0+7djn05Xkg3bnN4bbxGAGGG0KnaIHgcfl1/+WdyUGhQOggcFhKqB6oalTJnU7m41118l27emm/Yzw==}
     dependencies:
       purgecss: 4.1.3
       tsup: 6.7.0(typescript@5.4.5)
-      vite: 2.9.18(sass@1.77.2)
+      vite: 2.9.18(sass@1.77.3)
     transitivePeerDependencies:
       - '@swc/core'
       - less
@@ -2112,7 +2112,7 @@ packages:
       - typescript
     dev: false
 
-  /vite@2.9.18(sass@1.77.2):
+  /vite@2.9.18(sass@1.77.3):
     resolution: {integrity: sha512-sAOqI5wNM9QvSEE70W3UGMdT8cyEn0+PmJMTFvTB8wB0YbYUWw3gUbY62AOyrXosGieF2htmeLATvNxpv/zNyQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
@@ -2132,12 +2132,12 @@ packages:
       postcss: 8.4.38
       resolve: 1.22.8
       rollup: 2.77.3
-      sass: 1.77.2
+      sass: 1.77.3
     optionalDependencies:
       fsevents: 2.3.3
     dev: false
 
-  /vite@4.5.3(@types/node@20.12.12)(sass@1.77.2):
+  /vite@4.5.3(@types/node@20.12.12)(sass@1.77.3):
     resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2169,7 +2169,7 @@ packages:
       esbuild: 0.18.20
       postcss: 8.4.38
       rollup: 3.29.4
-      sass: 1.77.2
+      sass: 1.77.3
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
