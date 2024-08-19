@@ -25,7 +25,7 @@ dependencies:
     version: 18.2.0(react@18.2.0)
   react-router-dom:
     specifier: ^6.16.0
-    version: 6.26.0(react-dom@18.2.0)(react@18.2.0)
+    version: 6.26.1(react-dom@18.2.0)(react@18.2.0)
   vite-plugin-purgecss:
     specifier: 0.2.12
     version: 0.2.12(sass@1.77.8)(typescript@5.5.4)
@@ -36,7 +36,7 @@ devDependencies:
     version: 5.2.10
   '@types/node':
     specifier: ^20.6.2
-    version: 20.14.15
+    version: 20.16.0
   '@types/react':
     specifier: ^18.2.21
     version: 18.3.3
@@ -54,7 +54,7 @@ devDependencies:
     version: 5.5.4
   vite:
     specifier: ^4.4.9
-    version: 4.5.3(@types/node@20.14.15)(sass@1.77.8)
+    version: 4.5.3(@types/node@20.16.0)(sass@1.77.8)
 
 packages:
 
@@ -736,8 +736,8 @@ packages:
   /@popperjs/core@2.11.8:
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
 
-  /@remix-run/router@1.19.0:
-    resolution: {integrity: sha512-zDICCLKEwbVYTS6TjYaWtHXxkdoUvD/QXvyVZjGCsWz5vyH7aFeONlPffPdW+Y/t6KT0MgXb2Mfjun9YpWN1dA==}
+  /@remix-run/router@1.19.1:
+    resolution: {integrity: sha512-S45oynt/WH19bHbIXjtli6QmwNYvaz+vtnubvNpNDvUOoA/OWh6j1OikIP3G+v5GHdxyC6EXoChG3HgYGEUfcg==}
     engines: {node: '>=14.0.0'}
     dev: false
 
@@ -776,10 +776,10 @@ packages:
       '@popperjs/core': 2.11.8
     dev: true
 
-  /@types/node@20.14.15:
-    resolution: {integrity: sha512-Fz1xDMCF/B00/tYSVMlmK7hVeLh7jE5f3B7X1/hmV0MJBwE27KlS7EvD/Yp+z1lm8mVhwV5w+n8jOZG8AfTlKw==}
+  /@types/node@20.16.0:
+    resolution: {integrity: sha512-vDxceJcoZhIVh67S568bm1UGZO0DX0hpplJZxzeXMKwIPLn190ec5RRxQ69BKhX44SUGIxxgMdDY557lGLKprQ==}
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.19.6
     dev: true
 
   /@types/prop-types@15.7.12:
@@ -810,7 +810,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.24.7(@babel/core@7.25.2)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 4.5.3(@types/node@20.14.15)(sass@1.77.8)
+      vite: 4.5.3(@types/node@20.16.0)(sass@1.77.8)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -905,7 +905,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001651
-      electron-to-chromium: 1.5.6
+      electron-to-chromium: 1.5.11
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
     dev: true
@@ -1032,8 +1032,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: false
 
-  /electron-to-chromium@1.5.6:
-    resolution: {integrity: sha512-jwXWsM5RPf6j9dPYzaorcBSUg6AiqocPEyMpkchkvntaH9HGfOOMZwxMJjDY/XEs3T5dM7uyH1VhRMkqUU9qVw==}
+  /electron-to-chromium@1.5.11:
+    resolution: {integrity: sha512-R1CccCDYqndR25CaXFd6hp/u9RaaMcftMkphmvuepXr5b1vfLkRml6aWVeBhXJ7rbevHkKEMJtz8XqPf7ffmew==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -1436,7 +1436,7 @@ packages:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.3.2
-      ignore: 5.3.1
+      ignore: 5.3.2
       merge2: 1.4.1
       slash: 3.0.0
     dev: false
@@ -1458,8 +1458,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: false
 
-  /ignore@5.3.1:
-    resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
+  /ignore@5.3.2:
+    resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
     dev: false
 
@@ -1730,8 +1730,8 @@ packages:
       yaml: 1.10.2
     dev: false
 
-  /postcss-selector-parser@6.1.1:
-    resolution: {integrity: sha512-b4dlw/9V8A71rLIDsSwVmak9z2DuBUB7CA1/wSdelNEzqsjoSPeADTWNO09lpH49Diy3/JIZ2bSPB1dI3LJCHg==}
+  /postcss-selector-parser@6.1.2:
+    resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -1758,7 +1758,7 @@ packages:
       commander: 8.3.0
       glob: 7.2.3
       postcss: 8.4.41
-      postcss-selector-parser: 6.1.1
+      postcss-selector-parser: 6.1.2
     dev: false
 
   /queue-microtask@1.2.3:
@@ -1780,26 +1780,26 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom@6.26.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-RRGUIiDtLrkX3uYcFiCIxKFWMcWQGMojpYZfcstc63A1+sSnVgILGIm9gNUA6na3Fm1QuPGSBQH2EMbAZOnMsQ==}
+  /react-router-dom@6.26.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-veut7m41S1fLql4pLhxeSW3jlqs+4MtjRLj0xvuCEXsxusJCbs6I8yn9BxzzDX2XDgafrccY6hwjmd/bL54tFw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.19.0
+      '@remix-run/router': 1.19.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-router: 6.26.0(react@18.2.0)
+      react-router: 6.26.1(react@18.2.0)
     dev: false
 
-  /react-router@6.26.0(react@18.2.0):
-    resolution: {integrity: sha512-wVQq0/iFYd3iZ9H2l3N3k4PL8EEHcb0XlU2Na8nEwmiXgIUElEH6gaJDtUQxJ+JFzmIXaQjfdpcGWaM6IoQGxg==}
+  /react-router@6.26.1(react@18.2.0):
+    resolution: {integrity: sha512-kIwJveZNwp7teQRI5QmwWo39A5bXRyqpH0COKKmPnyD2vBvDwgFXSqDUYtt1h+FEyfnE8eXr7oe0MxRzVwCcvQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.19.0
+      '@remix-run/router': 1.19.1
       react: 18.2.0
     dev: false
 
@@ -2056,8 +2056,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  /undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  /undici-types@6.19.6:
+    resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
     dev: true
 
   /update-browserslist-db@1.1.0(browserslist@4.23.3):
@@ -2117,7 +2117,7 @@ packages:
       fsevents: 2.3.3
     dev: false
 
-  /vite@4.5.3(@types/node@20.14.15)(sass@1.77.8):
+  /vite@4.5.3(@types/node@20.16.0)(sass@1.77.8):
     resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2145,7 +2145,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.14.15
+      '@types/node': 20.16.0
       esbuild: 0.18.20
       postcss: 8.4.41
       rollup: 3.29.4
