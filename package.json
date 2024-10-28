@@ -11,22 +11,23 @@
 	},
 	"dependencies": {
 		"@popperjs/core": "2.11.8",
-		"bootstrap": "5.3.2",
-		"bootstrap-icons": "1.11.1",
-		"react": "18.2.0",
-		"react-dom": "18.2.0",
-		"react-router-dom": "^6.16.0",
-		"@builder.io/partytown": "^0.8.1",
+		"bootstrap": "5.3.3",
+		"bootstrap-icons": "1.11.3",
+		"react": "18.3.1",
+		"react-dom": "18.3.1",
+		"react-router-dom": "^6.27.0",
+		"@builder.io/partytown": "^0.10.2",
 		"vite-plugin-purgecss": "0.2.12"
 	},
 	"devDependencies": {
-		"@types/bootstrap": "^5.2.7",
-		"@types/node": "^20.6.2",
-		"@types/react": "^18.2.21",
-		"@types/react-dom": "^18.2.7",
-		"@vitejs/plugin-react": "^4.0.4",
-		"sass": "^1.67.0",
-		"typescript": "^5.2.2",
-		"vite": "^4.4.9"
-	}
+		"@types/bootstrap": "^5.2.10",
+		"@types/node": "^22.8.1",
+		"@types/react": "^18.3.12",
+		"@types/react-dom": "^18.3.1",
+		"@vitejs/plugin-react": "^4.3.3",
+		"sass": "^1.80.4",
+		"typescript": "^5.6.3",
+		"vite": "^5.4.10"
+	},
+	"packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
