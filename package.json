@@ -13,8 +13,8 @@
 		"@popperjs/core": "2.11.8",
 		"bootstrap": "5.3.3",
 		"bootstrap-icons": "1.11.3",
-		"react": "18.3.1",
-		"react-dom": "18.3.1",
+		"react": "19.0.0",
+		"react-dom": "19.0.0",
 		"react-router-dom": "^6.27.0",
 		"@builder.io/partytown": "^0.10.2",
 		"vite-plugin-purgecss": "0.2.12"
@@ -22,8 +22,8 @@
 	"devDependencies": {
 		"@types/bootstrap": "^5.2.10",
 		"@types/node": "^22.8.1",
-		"@types/react": "^18.3.12",
-		"@types/react-dom": "^18.3.1",
+		"@types/react": "^19.0.0",
+		"@types/react-dom": "^19.0.0",
 		"@vitejs/plugin-react": "^4.3.3",
 		"sass": "^1.80.4",
 		"typescript": "^5.6.3",
