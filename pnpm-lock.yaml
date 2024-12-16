@@ -41,10 +41,10 @@ importers:
         version: 22.10.2
       '@types/react':
         specifier: ^18.3.12
-        version: 18.3.16
+        version: 18.3.17
       '@types/react-dom':
         specifier: ^18.3.1
-        version: 18.3.5(@types/react@18.3.16)
+        version: 18.3.5(@types/react@18.3.17)
       '@vitejs/plugin-react':
         specifier: ^4.3.3
         version: 4.3.4(vite@5.4.11(@types/node@22.10.2)(sass@1.83.0))
@@ -675,8 +675,8 @@ packages:
     peerDependencies:
       '@types/react': ^18.0.0
 
-  '@types/react@18.3.16':
-    resolution: {integrity: sha512-oh8AMIC4Y2ciKufU8hnKgs+ufgbA/dhPTACaZPM86AbwX9QwnFtSoPWEeRUj8fge+v6kFt78BXcDhAU1SrrAsw==}
+  '@types/react@18.3.17':
+    resolution: {integrity: sha512-opAQ5no6LqJNo9TqnxBKsgnkIYHozW9KSTlFVoSUJYh1Fl/sswkEoqIugRSm7tbh6pABtYjGAjW+GOS23j8qbw==}
 
   '@vitejs/plugin-react@4.3.4':
     resolution: {integrity: sha512-SCCPBJtYLdE8PX/7ZQAs1QAZ8Jqwih+0VBLum1EGqmCCQal+MIUqLCzj3ZUy8ufbC0cAM4LRlSTm7IQJwWT4ug==}
@@ -1963,11 +1963,11 @@ snapshots:
 
   '@types/prop-types@15.7.14': {}
 
-  '@types/react-dom@18.3.5(@types/react@18.3.16)':
+  '@types/react-dom@18.3.5(@types/react@18.3.17)':
     dependencies:
-      '@types/react': 18.3.16
+      '@types/react': 18.3.17
 
-  '@types/react@18.3.16':
+  '@types/react@18.3.17':
     dependencies:
       '@types/prop-types': 15.7.14
       csstype: 3.1.3
